@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    /* width: 100vw; */
+}   
+
+.um, .dois{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-boxs;
+}
+
+.dois{
+    justify-content: end;
+}
+
+.dois .linkpages{
+    margin-right: 2vw;
+}
+
+.corpo{
+    justify-content: space-between !important;
+    /* height: 15vh; */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    padding: 3vh 1.5vw;
+    background-color: #3C3A36 !important;
+    color:  #FFFAFA !important;
+}
+
+.linkpages{
+    box-sizing: border-box;
+    text-align: center;
+    width: 150px;
+    text-decoration: none;
+    padding: 15px;
+    margin-left: 2vw;
+    max-width: 150px;
+    color: #FFFAFA;
+    border-radius: 15px;
+    transition: background-color 0.8s ease-in-out;
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover{
+    background-color: #FFFAFA;
+    color: #3C3A36;
+}

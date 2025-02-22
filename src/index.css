@@ -1,0 +1,118 @@
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.produto-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+}
+
+.produto,
+.cart-item {
+  width: 250px !important;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+
+.produto h3,
+.cart-item h3 {
+  margin-top: 0;
+}
+
+.cart-buttons {
+  display: flex;
+  gap: 10px;
+  height: 40px;
+}
+
+.aga1{
+  margin: 3vh 0 1.5vh 0;
+  text-align: center;
+}
+
+.produto button,
+.cart-item button,
+.total button,
+.thank-you-page button {
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.produto button:hover,
+.cart-item button:hover,
+.total button:hover,
+.thank-you-page button:hover {
+  background-color: #4cae4c;
+}
+
+.cart-item{
+  margin-left: 20px;
+}
+
+.total {
+  margin-right: 20px;
+  text-align: right;
+  margin-top: 20px;
+}
+
+.total p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+select{
+  width: 50px !important;
+}
+
+.corpo{
+  width: 100% !important;
+}
+
+.custom-toast-container .Toastify__toast {
+  font-size: 14px; /* Ajuste o tamanho da fonte */
+  padding: 8px 16px; /* Ajuste o padding para tornar o toast mais compacto */
+}
+
+.Toastify__toast {
+  max-width: 300px; /* Ajuste a largura máxima */
+  max-height: 150px;
+}
+
+.botao{
+  width: 200px !important;
+}
+
+.thank-you-page{
+  margin-top: 30vh;
+  text-align: center;
+}

@@ -1,0 +1,75 @@
+.formulario{
+    justify-content: center;
+    margin: auto;
+    max-width: 400px;
+    width: 80%;
+    display: flex;
+    flex-direction: column; 
+    gap: 2vh;
+    text-align: center;
+    height: 100vh;
+
+}
+
+h1{
+    font-size: 3.2em;
+    line-height: 1.1;
+
+}
+
+body{
+    background-color: #FFFAFA;
+    color: #3C3A36;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+  }
+  
+.linkform {
+    font-size: large;
+    color:#3C3A36;
+    text-decoration: inherit;
+}
+
+p{
+    margin-bottom: 2vh;
+}
+
+input{
+    background: #FFFFFF !important;
+    border: 1px solid #BEBAB3;
+    border-radius: 12px;
+    outline: none;
+    width: 100%;
+    padding: 16px;
+    box-sizing: border-box;
+  }
+
+button {
+    border-radius: 16px;
+    width: 100%;
+    padding: 16px 32px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #3C3A36;
+    color: #ffffff;
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+
+
+  button:hover {
+    border-color: #646cff;
+  }
+  button:focus,
+  button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  } 
