@@ -116,3 +116,9 @@ select{
   margin-top: 30vh;
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+  .linkpages{
+    width: auto !important;
+  }
+}
